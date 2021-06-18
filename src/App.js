@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Icon from "./Icon";
 import styled from "styled-components";
 
-
 const Container = styled.div`
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,7 +69,7 @@ class App extends Component<{}, IState> {
 
   state = {
     size: 5,
-    hash: ""
+    hash: "",
   }; 
 
   handleSizeOnChange = (event) => {
@@ -82,6 +82,7 @@ class App extends Component<{}, IState> {
 
   render() {
     const {size, hash} = this.state;
+
     return (
       <Container className="App">
         <Header className="App-header">Bingo Food(Icon) Game</Header>

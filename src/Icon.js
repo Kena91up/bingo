@@ -9,8 +9,8 @@ interface IContainerProps {
   const Container = styled.div`
   border: 5px solid black;
   display: grid;
-  grid-template-columns: repeat(${props => props.size}, 5rem);
-  grid-template-rows: repeat(${props => props.size}, 5rem);
+  grid-template-columns: repeat(${props => props.size}, 4rem);
+  grid-template-rows: repeat(${props => props.size}, 4rem);
   font-size: 2.5rem;
 `;
 
